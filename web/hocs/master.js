@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Router from 'next/router'
 
-import Header from '../components/Header'
+import Header from '../components/header'
 import { getUserFromServerCookie, getUserFromLocalCookie } from '../utils/auth'
 
 export default Page => class Master extends React.Component {
@@ -38,9 +38,6 @@ export default Page => class Master extends React.Component {
   }
 
   render() {
-    const cssFiles = [
-      'https://unpkg.com/normalize.css@5.0.0/normalize.css'
-    ]
     return (
       <div>
         <Head>

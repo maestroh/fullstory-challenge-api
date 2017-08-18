@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import master from '../hocs/master';
 
-export default () => (
+let Index = () => (
   <div>
-    <div>Welcome!</div>
-    <Link href="/auth/login"><a>Sign In</a></Link>
+    <div>Main Page</div>
   </div>
 )
+
+export default master(Index);
