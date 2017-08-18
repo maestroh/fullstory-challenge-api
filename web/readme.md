@@ -14,4 +14,4 @@ Basic template for building front end web apps using Next.js and auth0-lock.
 4. Start coding in the `pages` folder
 
 ## More Info
-For more info, refer to the [auth0 docs](https://auth0.com/docs/quickstart/spa) and the [Next.js](https://github.com/zeit/next.js/). The integration in this boilerplate was heavily, heavily influenced by the [next.js-auth0 repo](https://github.com/luisrudge/next.js-auth0).
+For more info, refer to the [auth0 docs](https://auth0.com/docs/quickstart/spa) and [Next.js](https://github.com/zeit/next.js/). The integration in this boilerplate was heavily, heavily influenced by the [next.js-auth0 repo](https://github.com/luisrudge/next.js-auth0).
