@@ -1,9 +1,19 @@
 import React from 'react'
 import Head from 'next/head'
 import Router from 'next/router'
+import { injectGlobal } from 'styled-components';
 
 import Header from '../components/header'
 import { getUserFromServerCookie, getUserFromLocalCookie } from '../utils/auth'
+
+injectGlobal`
+  @font-face {
+  font-family: "Bebas Neue";
+  src: url('static/BebasNeue-webfont.woff') format('woff');
+  font-weight: thin;
+  font-style: thin;
+}
+`;
 
 export default Page => class Master extends React.Component {
   static getInitialProps(ctx) {
