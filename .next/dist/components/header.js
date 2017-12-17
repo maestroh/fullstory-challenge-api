@@ -37,7 +37,7 @@ var HeaderLinks = _styledComponents2.default.div(_templateObject2);
 var MenuItem = _styledComponents2.default.div(_templateObject3);
 
 var isProd = process.env.NODE_ENV === "production";
-var prefix = isProd ? "/fullstory-challenge" : "";
+var prefix = isProd ? "" : "";
 var links = [{ href: prefix + "/magic", text: "Magic" }, { href: prefix + "/about", text: "About" }];
 var home = prefix + "/";
 
