@@ -52,8 +52,6 @@ var _header2 = _interopRequireDefault(_header);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "/home/nael/p/fullstory-challenge/hocs/master.js";
-
 var _templateObject = (0, _taggedTemplateLiteral3.default)(["\n  @font-face {\n  font-family: \"Bebas Neue\";\n  src: url('static/BebasNeue-webfont.woff') format('woff');\n  font-weight: thin;\n  font-style: thin;\n}\n"], ["\n  @font-face {\n  font-family: \"Bebas Neue\";\n  src: url('static/BebasNeue-webfont.woff') format('woff');\n  font-weight: thin;\n  font-style: thin;\n}\n"]);
 
 (0, _styledComponents.injectGlobal)(_templateObject);
@@ -101,51 +99,10 @@ exports.default = function (Page) {
     }, {
       key: "render",
       value: function render() {
-        return _react2.default.createElement("div", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 49
-          }
-        }, _react2.default.createElement(_head2.default, {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 50
-          }
-        }, _react2.default.createElement("meta", {
+        return _react2.default.createElement("div", null, _react2.default.createElement(_head2.default, null, _react2.default.createElement("meta", {
           name: "viewport",
-          content: "width=device-width, initial-scale=1",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 51
-          }
-        }), _react2.default.createElement("title", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 55
-          }
-        }, "FullStory Challenge!"), _react2.default.createElement("link", { rel: "shortcut icon", href: "static/favicon.ico", __source: {
-            fileName: _jsxFileName,
-            lineNumber: 56
-          }
-        }), _react2.default.createElement("script", { src: "static/scripts.js", __source: {
-            fileName: _jsxFileName,
-            lineNumber: 57
-          }
-        }), _react2.default.createElement("link", { href: "https://fonts.googleapis.com/css?family=Nunito+Sans", rel: "stylesheet", __source: {
-            fileName: _jsxFileName,
-            lineNumber: 58
-          }
-        })), _react2.default.createElement(_header2.default, (0, _extends3.default)({}, this.props, {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 60
-          }
-        })), _react2.default.createElement(Page, (0, _extends3.default)({}, this.props, {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 61
-          }
-        })));
+          content: "width=device-width, initial-scale=1"
+        }), _react2.default.createElement("title", null, "FullStory Challenge!"), _react2.default.createElement("link", { rel: "shortcut icon", href: "static/favicon.ico" }), _react2.default.createElement("script", { src: "static/scripts.js" }), _react2.default.createElement("link", { href: "https://fonts.googleapis.com/css?family=Nunito+Sans", rel: "stylesheet" })), _react2.default.createElement(_header2.default, this.props), _react2.default.createElement(Page, this.props));
       }
     }]);
 

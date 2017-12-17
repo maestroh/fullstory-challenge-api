@@ -26,8 +26,6 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = "/home/nael/p/fullstory-challenge/components/header.js";
-
 var _templateObject = (0, _taggedTemplateLiteral3.default)(["\n  display: flex;\n  justify-content: space-between;\n  width: 100%;\n  margin-bottom: 8vh;\n  font-family: \"Bebas Neue\";\n  font-size: 4vh;\n  color: #4B3A71;\n"], ["\n  display: flex;\n  justify-content: space-between;\n  width: 100%;\n  margin-bottom: 8vh;\n  font-family: \"Bebas Neue\";\n  font-size: 4vh;\n  color: #4B3A71;\n"]),
     _templateObject2 = (0, _taggedTemplateLiteral3.default)(["\n  display: flex;\n  justify-content: flex-end;\n  width: 50vw;\n  margin-right: 2vw;\n"], ["\n  display: flex;\n  justify-content: flex-end;\n  width: 50vw;\n  margin-right: 2vw;\n"]),
     _templateObject3 = (0, _taggedTemplateLiteral3.default)(["\n  margin-left: 2vw;\n"], ["\n  margin-left: 2vw;\n"]);
@@ -42,46 +40,9 @@ var links = [{ href: "/magic", text: "Magic" }, { href: "/about", text: "About" 
 
 var Header = function Header(_ref) {
   var currentUrl = _ref.currentUrl;
-  return _react2.default.createElement(AppHeader, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    }
-  }, _react2.default.createElement(_link2.default, { prefetch: true, key: "/", href: "/", __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    }
-  }, _react2.default.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    }
-  }, "FullStory Challenge!")), _react2.default.createElement(HeaderLinks, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    }
-  }, links.map(function (link) {
-    return _react2.default.createElement(MenuItem, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 39
-      }
-    }, _react2.default.createElement(_link2.default, { prefetch: true, key: link.href, href: link.href, __source: {
-        fileName: _jsxFileName,
-        lineNumber: 40
-      }
-    }, _react2.default.createElement("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 41
-      }
-    }, link.text)));
+  return _react2.default.createElement(AppHeader, null, _react2.default.createElement(_link2.default, { prefetch: true, key: "/", href: "/" }, _react2.default.createElement("div", null, "FullStory Challenge!")), _react2.default.createElement(HeaderLinks, null, links.map(function (link) {
+    return _react2.default.createElement(MenuItem, null, _react2.default.createElement(_link2.default, { prefetch: true, key: link.href, href: link.href }, _react2.default.createElement("div", null, link.text)));
   })));
-};
-
-Header.propTypes = {
-  currentUrl: _propTypes2.default.string.isRequired
 };
 
 exports.default = Header;
