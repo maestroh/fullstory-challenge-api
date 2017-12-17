@@ -1,6 +1,6 @@
 const isProd = process.env.NODE_ENV === "production";
 module.exports = {
-  assetPrefix: isProd ? "http://nael.io/fullstory-challenge" : "",
+  assetPrefix: isProd ? "https://fullstory.now.sh" : "",
   exportPathMap: function() {
     return {
       "/": { page: "/" },

@@ -1,15 +1,7 @@
 import Link from "next/link";
 import master from "../hocs/master";
 import styled from "styled-components";
-import { H1, H2, P } from "../components/styles";
-
-const Items = styled.div`
-  margin-top: 3vh;
-  display: grid;
-  margin-left: 5vw;
-  grid-template-columns: 30vw 30vw 30vw;
-  grid-gap: 1vw;
-`;
+import { H1, H2, P, Items } from "../components/styles";
 
 let Index = () => (
   <div>

@@ -23,3 +23,11 @@ export const P = styled.p`
 font-family: "Nunito Sans", sans-serif;
 color: #4b3a71;
 `;
+
+export const Items = styled.div`
+margin-top: 3vh;
+display: grid;
+margin-left: 5vw;
+grid-template-columns: 30vw 30vw 30vw;
+grid-gap: 1vw;
+`;

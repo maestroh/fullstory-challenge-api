@@ -10,7 +10,7 @@ const AppHeader = styled.div`
   margin-bottom: 8vh;
   font-family: "Bebas Neue";
   font-size: 4vh;
-  color: #4B3A71;
+  color: #4b3a71;
 `;
 
 const HeaderLinks = styled.div`
@@ -27,6 +27,7 @@ const MenuItem = styled.div`
 const isProd = process.env.NODE_ENV === "production";
 const prefix = isProd ? "" : "";
 const links = [
+  { href: prefix + "spotify", text: "Spotify" },
   { href: prefix + "magic", text: "Magic" },
   { href: prefix + "about", text: "About" }
 ];
