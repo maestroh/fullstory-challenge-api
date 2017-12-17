@@ -27,8 +27,8 @@ const MenuItem = styled.div`
 const isProd = process.env.NODE_ENV === "production";
 const prefix = isProd ? "" : "";
 const links = [
-  { href: prefix + "/magic", text: "Magic" },
-  { href: prefix + "/about", text: "About" }
+  { href: prefix + "magic", text: "Magic" },
+  { href: prefix + "about", text: "About" }
 ];
 const home = prefix + "/";
 
