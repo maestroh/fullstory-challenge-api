@@ -4,8 +4,8 @@ module.exports = {
   exportPathMap: function() {
     return {
       "/": { page: "/" },
-      "/about": { page: "/about" },
-      "/magic": { page: "/magic" }
+      "fullstory-challenge/about": { page: "/about" },
+      "fullstory-challenge/magic": { page: "/magic" }
     };
   }
 };
