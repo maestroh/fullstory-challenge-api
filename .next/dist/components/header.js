@@ -36,11 +36,14 @@ var HeaderLinks = _styledComponents2.default.div(_templateObject2);
 
 var MenuItem = _styledComponents2.default.div(_templateObject3);
 
-var links = [{ href: "/magic", text: "Magic" }, { href: "/about", text: "About" }];
+var isProd = process.env.NODE_ENV === "production";
+var prefix = isProd ? "/fullstory-challenge" : "";
+var links = [{ href: prefix + "/magic", text: "Magic" }, { href: prefix + "/about", text: "About" }];
+var home = prefix + "/";
 
 var Header = function Header(_ref) {
   var currentUrl = _ref.currentUrl;
-  return _react2.default.createElement(AppHeader, null, _react2.default.createElement(_link2.default, { prefetch: true, key: "/", href: "/" }, _react2.default.createElement("div", null, "FullStory Challenge!")), _react2.default.createElement(HeaderLinks, null, links.map(function (link) {
+  return _react2.default.createElement(AppHeader, null, _react2.default.createElement(_link2.default, { prefetch: true, key: home, href: home }, _react2.default.createElement("div", null, "FullStory Challenge!")), _react2.default.createElement(HeaderLinks, null, links.map(function (link) {
     return _react2.default.createElement(MenuItem, null, _react2.default.createElement(_link2.default, { prefetch: true, key: link.href, href: link.href }, _react2.default.createElement("div", null, link.text)));
   })));
 };

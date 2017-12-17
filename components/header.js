@@ -24,14 +24,17 @@ const MenuItem = styled.div`
   margin-left: 2vw;
 `;
 
+const isProd = process.env.NODE_ENV === "production";
+const prefix = isProd ? "/fullstory-challenge" : "";
 const links = [
-  { href: "/magic", text: "Magic" },
-  { href: "/about", text: "About" }
+  { href: prefix + "/magic", text: "Magic" },
+  { href: prefix + "/about", text: "About" }
 ];
+const home = prefix + "/";
 
 const Header = ({ currentUrl }) => (
   <AppHeader>
-    <Link prefetch key="/" href="/">
+    <Link prefetch key={home} href={home}>
       <div>FullStory Challenge!</div>
     </Link>
     <HeaderLinks>
