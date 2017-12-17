@@ -1,4 +1,4 @@
-# fullstory-challenge
+# The Fullstory Challenge
 
 This repository fulfills the FullStory JS API integration. 
 
@@ -14,7 +14,7 @@ This repository fulfills the FullStory JS API integration.
 Follow the instructions at https://yarnpkg.com/en/docs/install to setup `yarn` as your package manager.
 
 
-## Steps to run this app
+## Getting Setup
 1. Clone the repo locally
 2. `cd` into the `web` folder
 3. Create a config.json file
