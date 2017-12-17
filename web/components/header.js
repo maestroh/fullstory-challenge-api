@@ -9,7 +9,8 @@ const AppHeader = styled.div`
   width: 100%;
   margin-bottom: 8vh;
   font-family: "Bebas Neue";
-  font-size: 8vh;
+  font-size: 4vh;
+  color: #4B3A71;
 `;
 
 const HeaderLinks = styled.div`
@@ -46,7 +47,6 @@ const Header = ({ currentUrl }) => (
 );
 
 Header.propTypes = {
-  isAuthenticated: PropTypes.bool.isRequired,
   currentUrl: PropTypes.string.isRequired
 };
 

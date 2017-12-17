@@ -52,8 +52,10 @@ export default Page =>
               name="viewport"
               content="width=device-width, initial-scale=1"
             />
-            <title>Starter Pack</title>
+            <title>FullStory Challenge!</title>
+            <link rel="shortcut icon" href="static/favicon.ico" />
             <script src="static/scripts.js">{}</script>
+            <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet"/>
           </Head>
           <Header {...this.props} />
           <Page {...this.props} />
